@@ -1,0 +1,72 @@
+﻿/* this is restro info */
+#viewFood {
+    display: flex;
+    width: 100%;
+    /* justify-content:space-around; */
+}
+
+    #viewFood .image {
+        margin-left: 1%;
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+
+        #viewFood .image img {
+            width: 30vw;
+            height: 60vh;
+            border-radius: 10px;
+        }
+
+    #viewFood.foodInfo {
+        width: 45%;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 8%;
+        /* float: right; */
+    }
+
+.foodInfo .desc {
+    text-align: start;
+    padding: 50px 30px;
+}
+
+#viewFood .foodInfo .desc span {
+    color: #42a1c7;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#viewFood .foodInfo .desc p {
+    color: #0f1011;
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+#viewFood .foodInfo .desc h5 {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(19, 17, 17);
+}
+
+
+#viewFood .foodInfo .desc h4 {
+    font-size: 36px;
+    color: rgba(13, 99, 13, 0.938);
+    padding-top: 25px;
+    font-weight: 700;
+}
+
+#viewFood .foodInfo .desc h6 {
+    display: inline-block;
+    padding: 3px 30px;
+    line-height: 2;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: rgb(207, 20, 20);
+    background-color: #ba99ac;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-right: 60px;
+}

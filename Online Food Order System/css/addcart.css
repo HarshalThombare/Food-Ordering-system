@@ -1,0 +1,25 @@
+﻿#addcart{
+    width:90vw;
+    height:88vh;
+    background:#dce5e5;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:space-between
+}
+
+.cartfood {
+    width: 70%;
+    height: 80%;
+    border: 2px solid #000000;
+    /*background: #00ffff;*/
+    padding-top: 10%;
+    margin: 20px 0;
+}
+
+.carttotal {
+    /*background: #0094ff;*/
+    border:2px solid #000000;
+    width: 25%;
+    height: 50vh;
+    margin: 7% 0;
+}

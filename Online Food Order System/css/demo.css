@@ -1,0 +1,99 @@
+﻿#tableView {
+    width: 80vw;
+    height: 100vh;
+    border-color: black;
+    border: 5px solid #dccdcd;
+}
+    #tableView .table {
+        margin:30px;
+        border: 5px solid #dccdcd;
+    }
+    #tableView .b1 {
+       margin-left:30px;
+       text-decoration:none;
+        border: 3px solid #808080;
+        background: #b4e9d4;
+        padding:5px 30px;
+        border-radius:5px;
+        font-weight:700;
+        font-size:20px;
+        height:5vh;
+     
+    }
+
+    #tableView .b2 {
+        border: 3px solid #808080;
+        background: #ffd800;
+        width: 15%;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 20px;
+        height: 5vh;
+    }
+
+    #tableView .b3 {
+        text-decoration: none;
+        border: 3px solid #808080;
+        background: #00ff21;
+        width: 15%;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 20px;
+        height: 5vh;
+    }
+    #tableView .b4 {
+        text-decoration: none;
+        border: 3px solid #808080;
+        background: #2e3fc8;
+        width: 15%;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 20px;
+        height: 5vh;
+    }
+    #tableView .l1 {
+       
+        font-weight: 800;
+        font-size: 25px;
+        
+     
+    }
+
+    #tableView .t1 {
+       
+        border: 3px solid #808080;
+        text-align:center;
+        color:black;
+        width: 5%;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 20px;
+        height: 4vh;
+        margin-left:-30px;
+    }
+
+   /*add food form*/
+#addform {
+    width: 80vw;
+    height: 100vh;
+    border-color: black;
+    border: 5px solid #dccdcd;
+}
+
+    #addform .box {
+        margin:6%;
+        width: 40vw;
+        height: 80vh;
+        border: 2px solid #808080;
+        padding:20px;
+    }
+    #addform .l1 {
+        color: #ff0000;
+        font-size: 30px;
+        font-weight: 600;
+        /* background:#6dac64;*/
+        padding: 15px 25px;
+        border-radius: 20px;
+    }
+ 

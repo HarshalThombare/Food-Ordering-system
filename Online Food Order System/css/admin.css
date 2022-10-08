@@ -1,0 +1,341 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #e5e7e8;
+    display: flex;
+}
+
+    body form {
+        background: #e5e7e8;
+        display: flex;
+    }
+
+/* menu */
+#menu {
+    background: #111827;
+    width: 25%;
+    height: 100vh;
+}
+
+    #menu .profile {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        padding: 30px 0 0 30px;
+    }
+
+        #menu .profile img {
+            width: 25%;
+            margin: 20px;
+            border-radius: 40px;
+            object-fit: cover;
+        }
+
+    #menu .item li {
+        list-style: none;
+        padding: 15px 0;
+        transition: 0.3s ease;
+    }
+
+        #menu .item li:hover {
+            background: #253047;
+        }
+
+            #menu .item li:hover i,
+            #menu .item li:hover a {
+                /* color: #f3f4f6; */
+                color: #088178;
+            }
+
+        #menu .item li i {
+            color: #91a5d0;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 30px;
+            margin: 0 20px 0 20px;
+        }
+
+        #menu .item li a {
+            text-decoration: none;
+            font-size: 25px;
+            color: rgb(134, 141, 151);
+            font-weight: 400;
+            transition: 0.3s ease;
+        }
+
+/* interface */
+#interface {
+    width: 125%;
+    border: 5px solid rgb(118, 109, 109);
+    background: #e5e7e8;
+}
+
+    #interface .line hr {
+        width: 100%;
+        height: 2px;
+        border-color: black;
+    }
+
+    #interface .name {
+        color: #444a54;
+        /* padding: 30px 30px 0 30px; */
+        padding: 5px 0 0 20px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    #interface .values {
+        /* padding: 30px 30px 0 30px; */
+        text-align: center;
+        display: flex;
+        margin-left: 120px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+        #interface .values .val-box {
+            background: #fff;
+            width: 40%;
+            height: 40vh;
+            border: 3px solid #111827;
+            /* padding: 18px 20px; */
+            margin: 20px;
+            border-radius: 10px;
+            /* display: flex;
+    justify-content: flex-start; */
+            align-items: center;
+        }
+
+            #interface .values .val-box i {
+                font-size: 400%;
+                width: 10vw;
+                height: 20vh;
+                padding-top: 55px;
+                line-height: 20px;
+                margin-top: 12px;
+                border-radius: 45px;
+                /* text-align: center; */
+                align-items: center;
+                color: #fff
+                /* background: #088178; */
+            }
+
+            #interface .values .val-box:nth-child(1) i {
+                background: #7b7cec;
+            }
+
+            #interface .values .val-box:nth-child(2) i {
+                background: #ec7b81;
+            }
+
+            #interface .values .val-box:nth-child(3) i {
+                background: #7bec81;
+            }
+
+            #interface .values .val-box:nth-child(4) i {
+                background: #ec7bdf;
+            }
+
+            #interface .values .val-box div h3 {
+                color: #253047;
+                font-size: 30px;
+                font-weight: 700;
+                padding-top: 0px;
+            }
+
+            #interface .values .val-box div span {
+                color: #7986a4;
+                font-size: 20px;
+                font-weight: 700;
+                padding-top: 2 0px;
+            }
+
+/* table */
+#tableView {
+    width: 155%;
+    border: 10px solid rgb(118, 109, 109);
+    /* overflow: auto; */
+    background: #e5e7e8;
+}
+
+    #tableView span {
+        font-size: 40px;
+        font-weight: 500;
+        margin: 30px;
+        /* padding-top: 10vh; */
+        margin-left: 5%;
+        color: #2023cc;
+    }
+
+    #tableView .line hr {
+        width: 100%;
+        height: 2px;
+        border-color: black;
+    }
+
+    #tableView .find {
+        display: flex;
+        margin: 20px 0 0 40px;
+        justify-content: space-between;
+    }
+
+    #tableView .search {
+        display: flex;
+        background: #fff;
+        justify-content: flex-start;
+        padding: 15px 25px;
+        border: 1px solid #e5e7e8;
+    }
+
+        #tableView .search i {
+            margin-right: 15px;
+            font-size: 20px;
+            padding-top: 4px;
+        }
+
+        #tableView .search input {
+            border: none;
+            outline: none;
+            font-size: 20px;
+        }
+
+    /* #tableView .table{
+    margin-top: 5%;
+} */
+    #tableView .table table {
+        margin: 40px;
+        background: #fff;
+        border-radius: 10px;
+    }
+
+    /* #tableView img{
+    width: 60%;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 30px;
+} */
+    #tableView .table h3 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+.table table {
+    border-collapse: collapse;
+}
+
+.table tr {
+    border: 5px solid #eef0f3;
+}
+
+.table thead tr {
+    width: 100%;
+    background: #f9fa8b;
+}
+
+.table thead td {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+
+.table tbody tr td {
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+#tableView .table a {
+    text-decoration: none;
+    background: #b4e9d4;
+    padding: 5px 10px;
+    /* margin-left: -50px; */
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: #c62828;
+}
+/* this is restro info */
+#viewRestro {
+    display: flex;
+    width: 100%;
+    /* justify-content:space-around; */
+}
+
+    #viewRestro .image {
+        margin-left: 5%;
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+
+        #viewRestro .image img {
+            width: 40vw;
+            height: 70vh;
+            border-radius: 10px;
+        }
+
+    #viewRestro .restroInfo {
+        width: 45%;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 8%;
+        /* float: right; */
+    }
+
+        #viewRestro .restroInfo .desc {
+            text-align: start;
+            padding: 10px 0;
+        }
+
+            #viewRestro .restroInfo .desc span {
+                color: #42a1c7;
+                font-size: 40px;
+                font-weight: 600;
+            }
+
+            #viewRestro .restroInfo .desc p {
+                color: #0f1011;
+                font-size: 16px;
+                margin: 15px 0px;
+            }
+
+            #viewRestro .restroInfo .desc h5 {
+                font-size: 30px;
+                padding: 10px;
+                font-weight: 500;
+                color: rgb(19, 17, 17);
+            }
+
+
+            #viewRestro .restroInfo .desc h4 {
+                font-size: 36px;
+                color: rgba(13, 99, 13, 0.938);
+                padding-top: 25px;
+                font-weight: 700;
+            }
+
+            #viewRestro .restroInfo .desc h6 {
+                display: inline-block;
+                padding: 3px 40px;
+                border: 2px solid black;
+                border-radius: 6px;
+                color: rgb(207, 20, 20);
+                background-color: #ba99ac;
+                font-size: 30px;
+                cursor: pointer;
+                margin-top: 35px;
+                margin-right: 60px;
+            }

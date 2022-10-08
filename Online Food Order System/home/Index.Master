@@ -1,0 +1,71 @@
+﻿0<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Index.master.cs" Inherits="Online_Food_Order_System.home.Index" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link href="../css/style2.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <section id="header">
+        <i class="fas fa-utensils-alt fa-2x"><span style="color: red;">Food</span>ies..</i>
+        <div>
+            <ul id="navbar">
+                <li><a href="HomePage.aspx">Home</a></li>
+                <li><a href="FoodForm.aspx">Food</a></li>
+                <li><a href="AboutForm.aspx">About</a></li>
+            </ul>
+        </div>
+
+             <div>
+            <ul id="end">
+                <li>
+                       <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="AddToCart.aspx"><i class="fad fa-shopping-bag" style="font-size: 22px;
+            font-weight: 700;
+            color: #141313;
+            "></i></asp:HyperLink>
+
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" style="font-size: 22px;
+            font-weight: 700;
+            color: #141313;
+            "></asp:Label>
+                   
+                     &nbsp;&nbsp;
+                       <asp:Label ID="Label2" runat="server" Text="" style="font-size: 22px;
+            font-weight: 700;
+            color: red;
+            "></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;
+                   
+                     <asp:LinkButton ID="LinkButton1" runat="server"  ><a href="RestaurantRegForm.aspx">Add Your Business </a></asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton2" runat="server" style="padding:0 23px 0 23px" ><a href="LoginForm.aspx">LogIn </a></asp:LinkButton>
+                   <asp:LinkButton ID="LinkButton3" runat="server" style="padding:0 23px 0 23px" OnClick="LinkButton3_Click" >LogOut</asp:LinkButton>
+            </ul>
+        </div>
+    </section>
+
+        <!--main content placeholder-->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!--end main content placeholder-->
+
+        
+        <div class="copyright">
+            <p>Copyright &copy;Foodies.com</p>
+        </div>
+
+    </form>
+</body>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+</html>

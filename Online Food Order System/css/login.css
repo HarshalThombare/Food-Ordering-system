@@ -1,0 +1,71 @@
+﻿.body {
+    background-image: url('/img/login.jpeg');
+    background-size: cover;
+    padding-top: 1px;
+    height: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    width: 400px;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+    .form h1 {
+        color: white;
+        font-size: 2rem;
+        border-bottom: 4px solid rgba(255,255,255,0.5);
+        margin: 40px;
+    }
+
+.box {
+    padding: 12px;
+    margin: 10px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    //background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    //color: white;
+    font-size: 1rem;
+}
+
+.submit {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    padding: 10px 20px;
+    margin-top: 30px;
+    width: 53%;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+    .submit:hover {
+        cursor: pointer;
+        background-color: rgba(255,255,255,0.1);
+        color: white;
+    }
+
+#placeholder {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

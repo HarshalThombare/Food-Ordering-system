@@ -1,0 +1,47 @@
+﻿#addFood {
+    width: 80vw;
+    height: 100vh;
+    
+   }
+.l1 {
+    font-weight: 800;
+    font-size: 25px;
+    color:#ff0000;
+ }
+#form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+   
+panel {
+    width: 42%;
+    height: 70vh;
+    margin-top: 3%;
+   // border: 2px solid black;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 1rem;
+}
+panel lable {
+        font-size: 25px;
+        font-weight: bolder;
+        padding-bottom:5px;
+}
+
+.input {
+    width: 85%;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.right {
+margin-right:5%;
+
+
+}
+
+.left {
+    margin-left: 10%;
+}

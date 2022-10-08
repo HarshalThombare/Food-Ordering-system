@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="IndexLogin.master.cs" Inherits="Online_Food_Order_System.home.IndexLogin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link href="../css/style2.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+        <section id="header">
+        <i class="fas fa-utensils-alt fa-2x"><span style="color: red;">Food</span>ies..</i>
+        <div>
+            <ul id="navbar">
+                <li><a href="HomePage.aspx">Home</a></li>
+                <li><a href="FoodForm.aspx">Food</a></li>
+                <li><a href="AboutForm.aspx">About</a></li>
+            </ul>
+        </div>
+
+        <div> 
+            <ul id="end">
+                <li>
+                    <li><a href="RestaurantRegForm.aspx">Add Your Business </a></li>
+                    <li><a href="LoginForm.aspx">LogIn </a></li>
+                  <!--  <li><a href="CustomerRegForm.aspx">Register</a></li>
+                    
+                    <li><a id="LinkButton3" href="/home/AddToCart.aspx"><i class="fad fa shopping-bag"></i></a></li>
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True"></asp:Label>-->
+                    <!-- <a href="LoginForm1.aspx">LogIn </a></li>
+                <li><a href="RegistrationForm1.aspx">Register</a></li>
+                <li><a href="cart.html"><i class="fad fa-shopping-bag"></i></a></li>-->
+
+            </ul>
+            
+        </div>
+    </section>
+
+        <!--main content placeholder-->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!--end main content placeholder-->
+
+        
+        <div class="copyright">
+            <p>Copyright &copy;Foodies.com</p>
+        </div>
+
+</body>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+</html>
+

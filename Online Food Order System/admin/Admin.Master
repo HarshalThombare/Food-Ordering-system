@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Online_Food_Order_System.admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+        <link href="../css/admin.css" rel="stylesheet" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!--boxicons link  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <section id="menu">
+        <div class="profile">
+            <img src="../images/1.jpg" />
+            <h2><asp:Label ID="Label2" runat="server" Text="" style="font-size: 22px;
+            font-weight: 700;
+                      "></asp:Label></h2>
+        </div>
+
+        <div class="item">
+            <li><i class='bx bxs-dashboard'></i><a href="Admin_Dashboard.aspx">Dashboard</a></li>
+            <li><i class='bx bxs-store'></i><a href="ViewRestroForm.aspx">My Restro</a></li>
+            <li><i class='bx bx-refresh'></i><a href="#">Analysis</a></li>
+            <li><i class='bx bx-message-rounded-dots'></i><a href="RestaurantRequestForm.aspx">Request</a></li>
+            <li><i class="fas fa-sign-out fa-2x" style="color:red"></i><asp:LinkButton ID="LinkButton3" runat="server" ForeColor="Red" OnClick="LinkButton3_Click">LogOut</asp:LinkButton></li>
+
+        </div>
+    </section>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
